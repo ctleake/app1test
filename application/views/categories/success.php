@@ -1,0 +1,1 @@
+<p>Category added successfully!</p>
