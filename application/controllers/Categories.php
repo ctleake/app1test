@@ -110,6 +110,9 @@ class Categories extends CI_Controller {
 
         $categories_item = $this->categories_model->get_categories_by_id($id);
 
+        $this->load->model('news_categories_model');
+        $this->news_categories_model->delete_categories($id);
+
         $this->categories_model->delete_categories($id);
         redirect( base_url() . 'index.php/categories');
     }

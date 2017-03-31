@@ -1,0 +1,1 @@
+<p>News item: "<?php echo $news['title']; ?>" added successfully to Category: "<?php echo $categories['category']; ?>"!</p>

@@ -1,5 +1,5 @@
 <?php
-echo '<h2>'.$categories_item['category'].'</h2>';
+echo '<h2>Category: '.$categories_item['category'].'</h2>';
 
 if (!empty($news_items)) {
     ?>

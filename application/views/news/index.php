@@ -14,6 +14,7 @@
                 <a href="<?php echo site_url('news/'.$news_item['slug']); ?>">View</a> |
                 <a href="<?php echo site_url('news/edit/'.$news_item['id']); ?>">Edit</a> |
                 <a href="<?php echo site_url('news/delete/'.$news_item['id']); ?>" onClick="return confirm('Are you sure you want to delete?')">Delete</a>
+                <a href="<?php echo site_url('news/categorize/'.$news_item['id']); ?>">Categorize</a>
             </td>
         </tr>
     <?php endforeach; ?>
